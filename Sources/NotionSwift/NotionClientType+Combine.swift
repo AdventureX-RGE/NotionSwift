@@ -5,7 +5,10 @@
 //  Created by Wojciech Chojnacki on 06/06/2021.
 //
 
-import FoundationWithNetworking
+import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 #if canImport(Combine)
 import Combine
