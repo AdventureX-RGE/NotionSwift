@@ -2,10 +2,7 @@
 //  Created by Wojciech Chojnacki on 16/09/2021.
 //
 
-import Foundation
-#if canImport(FoundationNetworking)
-import FoundationNetworking
-#endif
+import FoundationWithNetworking
 
 public enum NetworkClientHelpers {
     public static func extractError(data: Data?, response: URLResponse?, error: Error?) -> NotionClientError? {

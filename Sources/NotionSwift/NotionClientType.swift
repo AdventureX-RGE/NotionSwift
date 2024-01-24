@@ -2,7 +2,7 @@
 //  Created by Wojciech Chojnacki on 06/06/2021.
 //
 
-import Foundation
+import FoundationWithNetworking
 
 public protocol NotionClientType: AnyObject {
 

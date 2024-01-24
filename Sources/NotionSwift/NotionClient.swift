@@ -2,10 +2,7 @@
 //  Created by Wojciech Chojnacki on 22/05/2021.
 //
 
-import Foundation
-#if canImport(FoundationNetworking)
-import FoundationNetworking
-#endif
+import FoundationWithNetworking
 
 public final class NotionClient: NotionClientType {
     private let accessKeyProvider: AccessKeyProvider

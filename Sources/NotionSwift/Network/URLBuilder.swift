@@ -2,10 +2,7 @@
 //  Created by Wojciech Chojnacki on 01/06/2021.
 //
 
-import Foundation
-#if canImport(FoundationNetworking)
-import FoundationNetworking
-#endif
+import FoundationWithNetworking
 
 public class URLBuilder {
     let base: URL

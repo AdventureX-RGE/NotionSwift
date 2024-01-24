@@ -2,7 +2,7 @@
 //  Created by Wojciech Chojnacki on 22/05/2021.
 //
 
-import Foundation
+import FoundationWithNetworking
 
 public protocol AccessKeyProvider {
     var accessKey: String? { get }

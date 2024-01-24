@@ -2,7 +2,7 @@
 //  Created by Wojciech Chojnacki on 02/06/2021.
 //
 
-import Foundation
+import FoundationWithNetworking
 
 typealias Environment = NotionSwiftEnvironment
 

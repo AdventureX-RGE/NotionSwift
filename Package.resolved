@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FoundationWithNetworking",
+        "repositoryURL": "https://github.com/rinsuki/FoundationWithNetworking",
+        "state": {
+          "branch": null,
+          "revision": "67e4425413483bde37a7b1f1258d831f24e6ea4d",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

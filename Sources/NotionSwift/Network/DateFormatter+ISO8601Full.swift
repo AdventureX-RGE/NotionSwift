@@ -2,7 +2,7 @@
 //  Created by Wojciech Chojnacki on 23/05/2021.
 //
 
-import Foundation
+import FoundationWithNetworking
 
 extension DateFormatter {
     public static let iso8601Full: DateFormatter = {

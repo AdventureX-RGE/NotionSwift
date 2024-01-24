@@ -2,7 +2,7 @@
 //  Created by Wojciech Chojnacki on 16/09/2021.
 //
 
-import Foundation
+import FoundationWithNetworking
 
 public enum NotionClientError: Error {
     case genericError(Error)

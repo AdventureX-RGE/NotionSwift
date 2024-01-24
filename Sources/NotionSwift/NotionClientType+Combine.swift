@@ -5,7 +5,7 @@
 //  Created by Wojciech Chojnacki on 06/06/2021.
 //
 
-import Foundation
+import FoundationWithNetworking
 
 #if canImport(Combine)
 import Combine

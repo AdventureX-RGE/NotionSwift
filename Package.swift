@@ -14,11 +14,15 @@ let package = Package(
             name: "NotionSwift",
             targets: ["NotionSwift"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/rinsuki/FoundationWithNetworking", .exactItem("0.1.0"))
+    ],
     targets: [
         .target(
             name: "NotionSwift",
-            dependencies: []
+            dependencies: [
+                .product(name: "FoundationWithNetworking", package: "FoundationWithNetworking")
+            ]
         ),
         .testTarget(
             name: "NotionSwiftTests",
